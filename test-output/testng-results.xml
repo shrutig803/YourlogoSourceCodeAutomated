@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24578" started-at="2020-03-19T07:44:42Z" finished-at="2020-03-19T07:45:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24578" started-at="2020-03-19T07:44:42Z" finished-at="2020-03-19T07:45:06Z">
+      <class name="testcases.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.RegisterTest@35851384]" name="setUp" is-config="true" duration-ms="21762" started-at="2020-03-19T13:14:42Z" finished-at="2020-03-19T13:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RegisterAccount(java.lang.String)[pri:0, instance:testcases.RegisterTest@35851384]" name="RegisterAccount" duration-ms="1959" started-at="2020-03-19T13:15:04Z" data-provider="grabData" finished-at="2020-03-19T13:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shruti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterAccount -->
+      </class> <!-- testcases.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
